@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Items = ({items, del}) => {
-    // const {items, del} = props;
+const Items = (props) => {
+    const {items, del} = props;
     let length = items.length
     const ListItem = length ? (
         items.map(item => {

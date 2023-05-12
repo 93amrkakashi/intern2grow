@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class AddItem extends Component {
+class addItem extends Component {
     state = {
         product: '',
         price: ''
@@ -35,4 +35,4 @@ class AddItem extends Component {
     }
 }
 
-export default AddItem;
+export default addItem;
