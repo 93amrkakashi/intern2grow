@@ -1,8 +1,8 @@
 import './App.css';
 import React, {Component} from 'react';
 import Items from './components/item/items'
+import AddItem from './components/addItem/addItem'
 import Total from './components/total/total'
-import AddItem from './components/addItem/AddItem ';
 
 class App extends Component {
   state = {
