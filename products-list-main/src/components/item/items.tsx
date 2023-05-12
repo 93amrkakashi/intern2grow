@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Items = (props) => {
     const {items, del} = props;

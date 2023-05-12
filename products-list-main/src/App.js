@@ -35,7 +35,7 @@ class App extends Component {
         <h1>Product List React App</h1>
         <div className="table">
           <Items items={this.state.items} del={this.deleteItem}/>
-          <AddItem add={this.addItem}/>
+          <AddItem add={this.addItem} items={this.state.items}/>
           <Total items={this.state.items}/>
         </div>
       </div>
