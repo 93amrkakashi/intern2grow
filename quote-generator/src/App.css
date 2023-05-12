@@ -27,10 +27,6 @@ h1{
   padding: 10px 5px 5px 5px;
   box-sizing: border-box;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 .container p{
   color: #e3e3e3;
@@ -60,11 +56,6 @@ h1{
   border: none;
   cursor: pointer;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  font-weight: 500;
 }
 .btns button.btn{
   background-color: #56cbdb;
