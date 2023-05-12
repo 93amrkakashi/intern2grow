@@ -1,9 +1,9 @@
-import './App.css';
-import React, { useState } from 'react';
-import {marked} from 'marked'
+import { marked } from "marked";
+import "./App.css";
+import React, { useState } from "react";
 
 const App: React.FC = () => {
-  const [code, setCode] = useState<string>('## Hello');
+  const [code, setCode] = useState<string>("## Hello");
   const [compiled, setCompiled] = useState<string>('<h2 id="hello">Hello</h2>');
   const [hide, hidePreview] = useState<boolean>(true);
 
